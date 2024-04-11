@@ -1,0 +1,644 @@
+*{
+  margin: 0;
+  border: 0;
+}
+/* navbar section starts*/
+.navbar{
+  background-color: rgb(106, 170, 106);
+}
+.navbar h3{
+  color: white;
+  margin-left: 6rem;
+  margin-top: 2rem;
+} 
+.navbar h3 img{
+  margin-bottom: 1rem;
+}
+.navbar .navbar-nav .nav-items a{
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.navbar .navbar-nav .nav-items button{
+  padding: .5rem 1.5rem;
+  background-color: green;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.navbar .navbar-nav .nav-items a:hover{
+  color: rgb(10, 85, 10);
+  font: bolder;
+}
+.navbar .navbar-nav .nav-items button:hover{
+  background-color: white;
+  color: green;
+}
+.navbar  .icon{
+  font-size: 2rem;
+}
+/* navbar section ends*/
+
+/* header section starts*/
+.header{
+  background-image: url("./images/decameal.png");
+  background-position: center;
+  background-size: cover;
+  height: 950px;
+}
+.header .container{
+  padding: 20rem 60rem 20rem 0;
+}
+.header .container h1{
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.header .container h1 span{
+  color: rgba(32, 124, 32, 0.856);
+}
+.header .container p{
+  color: white;
+  text-align: justify;
+  font-size: small;
+  padding-right: 4rem;
+  margin: 2rem 0;
+}
+.header .container button{
+  background-color: rgba(32, 124, 32, 0.856);
+  color: white;
+  padding: .5rem 1.5rem;font-weight: 600;
+  border-radius: 5px;
+}
+/* header section endss*/
+
+/* advert section starts*/
+.diet-wrapper{
+  background-color:rgba(72, 223, 59, 0.637);
+}
+.advert{
+  /* background-color: blueviolet; */
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+.advert h2{
+text-align: center;
+margin-bottom: 3rem;
+color: white;
+font-size: 1.5rem;
+font-weight: bold;
+}
+.advert  .card .rating{
+  color: rgb(222, 236, 17); 
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.advert  .card .rating .icon{
+  font-size: .8rem;
+}
+.advert  .card .card-body .card-title{
+font-size: 1.2rem;
+font-weight: bold;
+}
+.advert .card .card-body p{
+  color: gray;
+  font-weight: 400;
+}
+.advert .card .card-body a{
+  border-radius: 20px;
+  background-color:black;
+  font-size: .7rem;
+  color: white;
+}
+.advert .bottom-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.advert .bottom-button button{
+  padding: .5rem 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  font-size: small;
+}
+/* advert section ends*/
+
+/* diet-tips section starts*/
+.diet-tips{
+  /* background-color: brown; */
+  padding: 2rem 0;
+}
+.diet-tips .main-box{
+  align-items: center;
+}
+.diet-tips .main-box .image .images{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.diet-tips .main-box .image .images img{
+  height: 15rem;
+}
+.diet-tips .main-box .desc .body{
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+.diet-tips .main-box .desc .body h3{
+  color: white;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+.diet-tips .main-box .desc .body p{
+  font-size: small;
+}
+.diet-tips .main-box .desc .body button{
+  padding: .5rem 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 25px; 
+  margin-top: 3rem; 
+  font-size: small; 
+}
+/* diet-tips section ends*/
+
+/* menu section starts*/
+.menu .desc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 34rem;
+}
+.menu .desc h2{
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.menu .desc p{
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+.menu .card-box{
+  margin-top: 2rem;
+}
+/* .menu  .card img{
+  width: 19rem;
+  height: 17rem;
+} */
+.menu  .card .rating{
+  color: rgb(222, 236, 17); 
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.menu  .card .rating .icon{
+  font-size: .8rem;
+}
+.menu  .card .card-body .card-title{
+font-size: 1.2rem;
+font-weight: bold;
+}
+.menu  .card .card-body p{
+  color: gray;
+  font-weight: 400;
+}
+.menu  .card .card-body a{
+  border-radius: 20px;
+  background-color:black;
+  font-size: .7rem;
+  color: white;
+}
+.menu .bottom-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  padding-bottom: 4rem;
+}
+.menu .bottom-button button{
+  padding: 1rem 1.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+}
+/* menu section endss*/
+
+/* testimonial section starts*/
+
+.testimonial .cards{
+  margin: 6rem 3rem;
+}
+.testimonial .cards .card{
+display: flex;
+flex-direction:column ;
+align-items: center;
+padding: 2rem 10rem;
+border: none;
+}
+.testimonial .cards .card img{
+  width: 4rem;
+  border-radius: 50px;
+  border: 1px black solid;
+  margin-bottom: 1.5rem;
+}
+.testimonial .cards .card .rating{
+  color: rgb(222, 236, 17);
+  margin-bottom: 1rem;
+}
+.testimonial .cards .card p{
+  text-align: center;
+  color: grey;
+}
+.testimonial .cards .card h3{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+/* testimonial section ends*/
+/* notification starts*/
+.notification{
+  background-color: rgba(156, 202, 29, 0.767);
+}
+.notification .content{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+}
+.notification .content .get-notified h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.notification .content .get-notified p{
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.notification .content .input{
+  padding-left: 3rem;
+}
+.notification .content .input input{
+  padding: .7rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+.notification .content .input button{
+  border: none;
+  padding: .7rem 2rem;
+  background-color: rgba(1, 2, 15, 0.925);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-left: .5rem;
+}
+/* notification endss*/
+
+/* footer section starts*/
+.footer{
+  background-color: rgb(12, 12, 27);
+  color: white;
+}
+.footer .section1 {
+  padding-top: 4rem;
+}
+.footer .section1 .help{
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+  margin-bottom: 6rem;
+  
+}
+.footer .section1 .help h4{
+  margin-bottom: 1rem;
+}
+.footer .section1 .help a{
+  text-decoration: none;
+  color: beige;
+  font-size: small;
+}
+.footer .section1 .help a:hover{
+  color: blueviolet;
+}
+.footer .section1 .download h4{
+  margin-bottom: 1rem;   
+}
+.footer .section1 .download img{
+  margin-top: .5rem;
+}
+.footer .last-section{
+  border-top: .2px lightslategrey solid;
+  padding-top: 1.5rem;
+}
+.footer .last-section a{
+  color: white;
+  display: inline-block;
+  margin-right: 1rem;
+  
+}
+.footer .last-section a:hover{
+  color: blueviolet;
+}
+/* footer section ends*/
+
+
+@media only screen and (max-width: 430px)
+{
+/* header section starts*/
+.header{
+  background-image: url("./images/decameal.png");
+  background-position: center;
+  background-size: cover;
+  height: 950px;
+}
+.header .container{
+  padding: 10rem 5rem 10rem 5rem;
+}
+.header .container h1{
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.header .container h1 span{
+  color: rgba(32, 124, 32, 0.856);
+}
+.header .container p{
+  color: white;
+  text-align: justify;
+  font-size: small;
+  
+}
+.header .container button{
+  background-color: rgba(32, 124, 32, 0.856);
+  color: white;
+  padding: .5rem 1.5rem;
+  font-weight: 600;
+  border-radius: 5px;
+}
+/* header section endss*/
+
+/* advert section starts*/
+
+.advert .card{
+  margin-bottom: 2rem;
+}
+
+/* advert section ends*/
+
+/* diet-tips section starts*/
+.diet-tips{
+  /* background-color: brown; */
+  padding: 2rem 0;
+}
+.diet-tips .main-box{
+  align-items: center;
+}
+
+.diet-tips .main-box .image .images{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.diet-tips .main-box .image .jollof img{
+  align-items: center;
+  width: 19rem;
+  height: 25rem;
+}
+.diet-tips .main-box .image .images img{
+  height: 15rem;
+}
+.diet-tips .main-box .desc .body{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.diet-tips .main-box .desc .body button{
+  padding: .5rem 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 25px; 
+  margin-top: 3rem; 
+  font-size: small; 
+}
+/* diet-tips section ends*/
+
+/*menu card section starts*/
+.menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu .desc{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+.menu .desc h2{
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.menu .desc p{
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+/*menu card section ends*/
+/* testimonial section starts*/
+
+.testimonial .cards{
+  margin: 6rem 3rem;
+}
+.testimonial .cards .card{
+display: flex;
+flex-direction:column ;
+align-items: center;
+padding: 2rem 1rem;
+border: none;
+}
+/* testimonial section ends*/
+
+/* notification starts*/
+
+.notification .content .input{
+  padding-left: 3rem;
+  
+  
+}
+.notification .content .input input{
+  padding: .7rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+.notification .content .input button{
+  border: none;
+  padding: .7rem 2rem;
+  background-color: rgba(1, 2, 15, 0.925);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-top: .5rem;
+  /* margin-left: .5rem; */
+}
+/* notification endss*/   
+
+}
+
+@media only screen and (max-width: 1024px)
+{
+/* header section starts*/
+.header{
+  background-image: url("./images/decameal.png");
+  background-position: center;
+  background-size: cover;
+  height: 950px;
+}
+.header .container{
+  padding: 10rem 5rem 15rem 2rem;
+}
+.header .container h1{
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.header .container h1 span{
+  color: rgba(32, 124, 32, 0.856);
+}
+.header .container p{
+  color: white;
+  text-align: justify;
+  font-size: small;
+  
+}
+.header .container button{
+  background-color: rgba(32, 124, 32, 0.856);
+  color: white;
+  padding: .5rem 1.5rem;
+  font-weight: 600;
+  border-radius: 5px;
+}
+/* header section endss*/
+
+/* advert section starts*/
+
+.advert .card{
+  margin-bottom: 2rem;
+}
+
+/* advert section ends*/
+
+/* diet-tips section starts*/
+.diet-tips{
+  /* background-color: brown; */
+  padding: 0;
+  margin: 0;
+}
+.diet-tips .main-box{
+  display: flex;
+  flex-direction: column;
+}
+.diet-tips .main-box .image {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.diet-tips .main-box .image .images{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* margin-top: 2rem;
+  margin-bottom: 4rem; */
+}
+.diet-tips .main-box .image .jollof img{
+  height: 25rem;
+}
+.diet-tips .main-box .image .images img{
+  height: 11.5rem;
+}
+.diet-tips .main-box .desc .body{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.diet-tips .main-box .desc .body button{
+  padding: .5rem 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 25px; 
+  margin-top: 3rem; 
+  font-size: small; 
+}
+/* diet-tips section ends*/
+
+/*menu card section starts*/
+.menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu .desc{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  padding: 0 2rem;
+}
+.menu .desc h2{
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.menu .desc p{
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  padding: 0 15rem;
+}
+/*menu card section ends*/
+/* testimonial section starts*/
+
+.testimonial .cards{
+  margin: 6rem 3rem;
+}
+.testimonial .cards .card{
+display: flex;
+flex-direction:column ;
+align-items: center;
+padding: 2rem 1rem;
+border: none;
+}
+/* testimonial section ends*/
+
+/* notification starts*/
+
+.notification .content .input{
+  padding-left: 3rem;
+  
+  
+}
+.notification .content .input input{
+  padding: .7rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+.notification .content .input button{
+  border: none;
+  padding: .7rem 2rem;
+  background-color: rgba(1, 2, 15, 0.925);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-top: .5rem;
+  /* margin-left: .5rem; */
+}
+/* notification endss*/   
+
+}
+
+
+
